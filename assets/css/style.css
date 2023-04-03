@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Montserrat-Light;
+    src: url("../fonts/Montserrat-Light.ttf")
+}
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url("../fonts/Montserrat-Medium.ttf")
+}
+
+@font-face {
+    font-family: Montserrat-Italic;
+    src: url("../fonts/Montserrat-MediumItalic.ttf")
+}
+
+html {
+    font-size: 16px;
+    font-family: Montserrat-Light;
+}
+
+/* ======================
+                SECTION HEADER 
+                ========================*/
+
+header h1 {
+    font-family: Montserrat-Light;
+    font-size: 7rem;
+    color: #d9e5d6;
+    padding: 40px 0 80px 0 ;
+}
+
+header section:nth-of-type(1) {
+    background-color: #004e98;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 0 0 50px 50px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+header section:nth-of-type(1) form input,
+select {
+    border-radius: 50px;
+    border: none;
+    font-size: 1.2rem;
+}
+
+header section:nth-of-type(1) form input[type=text]:nth-of-type(1) {
+    padding: 30px 220px 30px 30px;
+    margin-right: 15px;
+}
+
+header section:nth-of-type(1) form input[type=button] {
+    padding: 30px 50px;
+    color: #ebebeb;
+    background-color: #ff6700;
+    font-size: 1.2rem;
+}
+
+header section:nth-of-type(1) form select {
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+    padding: 10px 100px;
+    appearance: none;
+    background-color:#c0c0c0;
+    font-size: 1rem;
+}
+
+
+/* ======================
+                NEWS MAIN SECTION 
+                ========================*/
+img {
+    max-width: 50vw;
+    border-radius: 50px;
+    margin: 30px 0;
+}
+
+
+main section article {
+    margin: 5vh 20vw;
+    padding: 70px 50px;
+    background-color: #ebebeb;
+    border-radius: 50px;
+}
+
+main section article h2 {
+    font-family: Montserrat-Medium;
+    font-size: 2rem;
+    color:#004e98
+}
+
+main section article p:nth-of-type(1) {
+    font-family: Montserrat-Medium;
+    padding-bottom: 20px;
+}
+
+main section article p:nth-of-type(2) {
+    font-size: 1.2rem;
+    padding-bottom: 50px;
+}
+
+main section article a {
+    font-size: 1.2rem;
+    color: #ebebeb;
+    text-decoration: none;
+    background-color: #ff6700;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
